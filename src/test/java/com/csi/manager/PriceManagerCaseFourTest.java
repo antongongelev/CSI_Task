@@ -82,7 +82,7 @@ public class PriceManagerCaseFourTest {
      * 3).....*****......
      */
     @Test
-    public void testCaseThree() {
+    public void testCaseFour() {
         PriceManager priceManager = new PriceManager();
         ArrayList<Price> result = priceManager.getUnitedPrices(getOldPrices(), getNewPrices());
         Assert.assertEquals(getExpected().toString(), result.toString());

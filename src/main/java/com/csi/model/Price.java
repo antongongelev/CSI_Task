@@ -11,7 +11,7 @@ public class Price implements Comparator<Price> {
     private int department;
     private LocalDateTime begin;
     private LocalDateTime end;
-    long value;
+    private long value;
 
     public Price() {
     }
